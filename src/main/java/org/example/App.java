@@ -28,5 +28,11 @@ public class App {
         }
         return max;
     }
-
+     public static double average(Integer [] numbers){
+        double sum = 0;
+         for (Integer num : numbers) {
+             sum+=sum;
+         }
+        return sum;
+     }
 }
