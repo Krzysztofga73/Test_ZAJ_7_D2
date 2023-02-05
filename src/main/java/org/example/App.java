@@ -18,6 +18,15 @@ public class App {
         }
         return min;
     }
-    
+
+    public static Integer maksimum(Integer [] numbers){
+        Integer max = Integer.MIN_VALUE;
+        for (Integer num : numbers) {
+            if (num > max) {
+                max = num;
+            }
+        }
+        return max;
+    }
 
 }
